@@ -3,29 +3,29 @@
         <div class="container">
             <nav class="d-flex justify-content-between align-items-center py-3">
                 <div id="logo">
-                    <img src="../img/avadabarbers-logo-x1.png" alt="Barber Logo">
+                    <img src="../img/avadabarbers-logo-x1.png" alt="Barber Logo" class="pointer">
                 </div>
                 <div id="menu">
-                    <i class="fas fa-shopping-cart"></i>
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-shopping-cart pointer"></i>
+                    <i class="fas fa-bars pointer"></i>
                 </div>
             </nav>
             <div id="jumbotron" class="d-flex justify-content-between align-items-center">
                 <div>
                     <h1>Barber Shop</h1>
                     <hr>
-                    <p>The Pinnacle of Male Grooming</p>
+                    <p class="fs-3">The Pinnacle of Male Grooming</p>
                     <img src="../img/hover-button.png" alt="Learn more button">
                 </div>
                 <img src="../img/avadabarbers_hero_focalmirror-600x825.png" alt="Cutting hair">
             </div>
         </div>
         <div id="buttons">
-            <button id="demos" class="white_btn">
+            <button id="demos" class="white_btn pointer d-block border-0 rounded-3 mb-3">
                 <i class="fas fa-3x fa-folder-plus"></i>
                 <p>Demos</p>
             </button>
-            <button id="sale" class="white_btn">
+            <button id="sale" class="white_btn pointer border-0 rounded-3">
                 <i class="fas fa-dollar-sign"></i>
                 <span class="fs-3 fw-bold">39</span>
                 <p>On Sale</p>
@@ -70,9 +70,8 @@ export default {
         }
 
         p {
-            font-size: 30px;
             font-weight: lighter;
-            color: $grey;
+            color: $lightgrey;
         }
     }
 
@@ -85,12 +84,7 @@ export default {
         .white_btn {
         width: 70px;
         height: 70px;
-        display: block;
-        margin: 10px 0;
-        border: none;
-        border-radius: 7px;
         outline: none;
-        cursor: pointer;
         color: #4a5259;
         }
 
