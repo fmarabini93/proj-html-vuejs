@@ -90,8 +90,8 @@
                 </div>
             </div>
       </section>
-      <section id="main-fourth" class="text-center pb-5">
-          <p>Tales from the barbershop</p>
+      <section id="main-fourth" class="text-center py-5">
+          <p class="mt-5">Tales from the barbershop</p>
           <h2>Recent Blog Posts</h2>
           <div class="container clearfix">
               <div class="float-start p-5">
@@ -204,6 +204,8 @@ main {
     }
 
     #main-fourth {
+        background: #f5f5f5;
+
         .clearfix {
             div {
                 width: calc(100%/3);
