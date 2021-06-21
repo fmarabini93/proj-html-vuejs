@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
-@import '../variables.scss';
+@import '../my_common_styles.scss';
 
     header {
         height: 100vh;

@@ -1,0 +1,19 @@
+// Colors
+$goldish: #be9359;
+$lightgrey: #b1b1b1;
+$grey: #8b8b8b;
+
+// General
+.pointer {
+    cursor:pointer
+}
+
+.my_btn {
+    padding: 10px 40px;
+    border-color: $goldish;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $goldish;
+    background: transparent;
+}
