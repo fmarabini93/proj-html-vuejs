@@ -4,7 +4,7 @@
       <div id="footer-top" class="container clearfix py-5">
           <div class="float-start">
               <img src="../img/avadabarbers_footer_shop_image-400x312.png" alt="Shop">
-              <button class="my_btn">Shop our range now</button>
+              <button class="my_btn goldish_btn mt-4">Shop our range now</button>
           </div>
           <div class="float-start">
                 <img src="../img/avadabarbers-logo-x2-200x70.png" alt="Logo" class="pt-4 mb-5">
@@ -20,7 +20,7 @@
           </div>
           <div class="float-start">
               <img src="../img/avadabarbers_footer_appointment_image-400x312.png" alt="Book">
-              <button class="my_btn">Book your appointment</button>
+              <button class="my_btn goldish_btn mt-4">Book your appointment</button>
           </div>
       </div>
       <!-- /Info -->
@@ -55,14 +55,14 @@ export default {
         #footer-top {
             div {
                 width: calc(100%/3);
-                object-fit: contain;
 
                 span {
-                    color: $lightgrey;
+                    color: $grey;
                 }
 
                 p {
                     color: $goldish;
+                    opacity: 0.7;
                 }
 
                 li {

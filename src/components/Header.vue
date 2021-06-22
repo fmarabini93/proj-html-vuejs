@@ -22,7 +22,7 @@
                     <h1>Barber Shop</h1>
                     <hr>
                     <p class="fs-3">The Pinnacle of Male Grooming</p>
-                    <button class="my_btn mt-5">Learn More</button>
+                    <button class="my_btn goldish_btn mt-5">Learn More</button>
                 </div>
                 <img src="../img/avadabarbers_hero_focalmirror-600x825.png" alt="Cutting hair" class="not_scale">
             </div>
@@ -76,7 +76,7 @@ export default {
 
         p {
             font-weight: lighter;
-            color: $lightgrey;
+            color: $grey;
         }
     }
     // Top right fixed buttons

@@ -5,7 +5,7 @@
             <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
                 <h2 class="mb-5">Pro barbers</h2>
-                <button class="my-5 my_btn">Meet your new barber</button>
+                <button class="my_btn goldish_btn my-5 ">Meet your new barber</button>
             </div>
         </section>
         <!-- /Find new barber -->
@@ -18,20 +18,20 @@
                     <div class="float-start text-center">
                         <img src="../img/avadabarbers-trimcut-icon-before.png" alt="Beard trimmer">
                         <h4 class="py-5">Trim & Cut</h4>
-                        <p>Avavda barbers are expert in the lickety split trim and hai cut. Quick but careful and ridiculously good looking.</p>
+                        <p class="grey-p">Avavda barbers are expert in the lickety split trim and hai cut. Quick but careful and ridiculously good looking.</p>
                     </div>
                     <div class="float-start text-center">
                         <img src="../img/avadabarbers-washndry-icon.png" alt="Beard shampoo">
                         <h4 class="py-5">Wash & Dry</h4>
-                        <p>Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.</p>
+                        <p class="grey-p">Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.</p>
                     </div>
                     <div class="float-start text-center">
                         <img src="../img/avadabarbers-beardtrim-icon.png" alt="Beard razor">
                         <h4 class="py-5">Beard Tidy</h4>
-                        <p>Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
+                        <p class="grey-p">Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
                     </div>
                 </div>
-                <button class="my_btn mb-5">Read about our services</button>
+                <button class="my_btn brownish_btn mb-5">Read about our services</button>
           </div>
         </section>
         <!-- /Services -->
@@ -61,7 +61,7 @@
                   <p><i class="fas fa-dollar-sign"></i> 30.00</p>
               </div>
           </div>
-          <button class="my_btn my-5">Shop our product range</button>
+          <button class="my_btn goldish_btn my-5">Shop our product range</button>
         </section>
         <!-- /Products -->
         <!-- Reviews + monthly product -->
@@ -74,7 +74,7 @@
                     <p>This month featured product</p>
                     <h2>Shaving Butter</h2>
                     <p class="grey-p mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt provident accusamus beatae odit accusantium repellat, pariatur autem quis magni aut magnam dolore molestias, adipisci perspiciatis.</p>
-                    <button class="my_btn">Buy now</button>
+                    <button class="my_btn goldish_btn">Buy now</button>
                 </div>
             </div>
             <div class="container text-center">
@@ -121,7 +121,7 @@
                   <p class="grey-p mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel sint quam reprehenderit in.</p>
               </div>
           </div>
-          <button class="my_btn mb-5">Read more from our blog</button>
+          <button class="my_btn brownish_btn mb-5">Read more from our blog</button>
         </section>
         <!-- Blog posts -->
   </main>
@@ -145,13 +145,13 @@ main {
 
     h4 {
         font-size: 35px;
-        color: $goldish;
+        color: $brownish;
     }
     
     p:not(.grey-p) {
         font-weight: bold;
         text-transform: uppercase;
-        color: $goldish;
+        color: $brownish;
     }
     .grey-p {
         color: $grey;
@@ -167,6 +167,7 @@ main {
         .container {
             div {
                 width: calc(100%/3);
+                padding: 0 5%;
 
                 img {
                     height: 100px;

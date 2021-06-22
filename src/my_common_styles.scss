@@ -1,7 +1,8 @@
 // Colors
 $goldish: #ffcf6a;
 $lightgrey: #b0b0b0;
-$grey: #88928f;
+$grey: #69625c;
+$brownish: #ae8652;
 // --Colors
 // General
 .pointer {
@@ -19,11 +20,18 @@ button:hover,img:not(.not_scale):hover {
 }
 .my_btn {
     padding: 10px 40px;
-    border-color: $goldish;
     outline: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: $goldish;
     background: transparent;
+}
+.goldish_btn {
+    border-color: $goldish;
+    color: $goldish;
+    opacity: 0.7;
+}
+.brownish_btn {
+    border-color: $brownish;
+    color: $brownish;
 }
 // --General
