@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :item='menuVoices'/>
     <Main />
-    <Footer />
+    <Footer :item='usefulInfo'/>
   </div>
 </template>
 
@@ -17,6 +17,18 @@ export default {
     Header,
     Main,
     Footer
+  },
+  data() {
+    return {
+      menuVoices: ["Meet Your New Barber","Services","Products","Monthly Product","Reviews","Blog Posts"],
+      usefulInfo: {
+        name: "Avada Barbers",
+        address: "123 New York Street",
+        city: "New York City",
+        email: "info@yourwebsite.com",
+        number: "+1 (555) 555-1212"
+      }
+    }
   }
 }
 </script>

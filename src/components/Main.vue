@@ -1,6 +1,6 @@
 <template>
   <main>
-      <section id="main-first">
+      <section id="main-1">
           <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
               <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
               <h2 class="mb-5">Pro barbers</h2>
@@ -29,7 +29,7 @@
               <button class="my_btn mb-5">Read about our services</button>
           </div>
       </section>
-      <section id="main-second" class="d-flex flex-column justify-content-around align-items-center py-5">
+      <section id="main-2" class="d-flex flex-column justify-content-around align-items-center py-5">
           <p class="text-uppercase fw-bold mt-5">We have you covered</p>
           <h2 class="mb-5">Avada Grooming Products</h2>
           <div class="clearfix text-center mb-5">
@@ -56,7 +56,7 @@
           </div>
           <button class="my_btn my-5">Shop our product range</button>
       </section>
-      <section id="main-third" class="pb-5">
+      <section id="main-3" class="pb-5">
             <div class="container clearfix mb-5">
                 <div id="shaving-butter-img" class="float-start">
                     <img src="../img/shaving_butter-400x400.png" alt="Shaving butter">
@@ -90,7 +90,7 @@
                 </div>
             </div>
       </section>
-      <section id="main-fourth" class="text-center py-5">
+      <section id="main-4" class="text-center py-5">
           <p class="mt-5">Tales from the barbershop</p>
           <h2>Recent Blog Posts</h2>
           <div class="container clearfix">
@@ -160,7 +160,7 @@ main {
         }
     }
 
-    #main-second {
+    #main-2 {
         background: url(../img/avadabarbers-reviewsbackground.jpg) top center;
 
         .container {
@@ -170,7 +170,7 @@ main {
         }
     }
 
-    #main-third {
+    #main-3 {
         .container:first-child {
             position: relative;
             top: -50px;
@@ -203,7 +203,7 @@ main {
         }
     }
 
-    #main-fourth {
+    #main-4 {
         background: #f5f5f5;
 
         .clearfix {

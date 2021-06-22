@@ -7,11 +7,11 @@
           </div>
           <div class="float-start">
                 <img src="../img/avadabarbers-logo-x2-200x70.png" alt="Logo" class="pt-4 mb-5">
-                <span class="d-block">Avada Barbers</span>
-                <span class="d-block">123 New York Street</span>
-                <span class="d-block">New York City</span>
-                <span class="d-block">info@yourwebsite.com</span>
-                <span class="d-block mb-4">+1 (555) 555-1212</span>
+                <span class="d-block">{{item.name}}</span>
+                <span class="d-block">{{item.address}}</span>
+                <span class="d-block">{{item.city}}</span>
+                <span class="d-block">{{item.email}}</span>
+                <span class="d-block mb-4">{{item.number}}</span>
                 <p class="text-uppercase fw-bold mt-4">Follow us</p>
                 <ul class="lisy-unstyled px-0 pt-3">
                     <li class="d-inline-block px-2"><i class="fab fa-facebook-f"></i></li>
@@ -34,7 +34,10 @@
 
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    props: {
+        item: Object
+    }
 }
 </script>
 

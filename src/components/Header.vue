@@ -6,7 +6,7 @@
                     <img src="../img/avadabarbers-logo-x1.png" alt="Barber Logo" class="pointer">
                 </div>
                 <div id="menu">
-                    <i class="fas fa-shopping-cart pointer"></i>
+                    <a href="#main-2"><i class="fas fa-shopping-cart pointer"></i></a>
                     <i class="fas fa-bars pointer"></i>
                 </div>
             </nav>
@@ -36,7 +36,10 @@
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    props: {
+        item: Array
+    }
 }
 </script>
 
