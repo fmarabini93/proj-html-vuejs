@@ -1,5 +1,7 @@
 # proj-html-vuejs
-
+```
+"Avada Barbers" site, entirely made with bootstrap and scss
+```
 ## Project setup
 ```
 npm install
