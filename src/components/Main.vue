@@ -2,18 +2,16 @@
   <main>
 
         <!-- Find new barber -->
-        <section id="main-0">
-            <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
+        <section id="main-0" class="d-flex flex-column justify-content-around align-items-center pt-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
                 <h2 class="mb-5">Pro barbers</h2>
                 <button class="my_btn goldish_btn my-5 ">Meet your new barber</button>
-            </div>
+                <div class="triangle mt-5"></div>
         </section>
         <!-- /Find new barber -->
 
         <!-- Services -->
-        <section id="main-1">
-            <div id="main-first-bottom" class="d-flex flex-column justify-content-around align-items-center py-5">
+        <section id="main-1" class="d-flex flex-column justify-content-around align-items-center pt-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Men's grooming</p>
                 <h2 class="mb-5">Services</h2>
                 <div class="container clearfix py-5">
@@ -34,7 +32,7 @@
                     </div>
                 </div>
                 <button class="my_btn brownish_btn mb-5">Read about our services</button>
-          </div>
+                <div class="triangle mt-5"></div>
         </section>
         <!-- /Services -->
 
@@ -69,7 +67,7 @@
         <!-- /Products -->
 
         <!-- Reviews + monthly product -->
-        <section id="main-3" class="pb-5">
+        <section id="main-3">
             <div class="container clearfix mb-5">
                 <div id="shaving-butter-img" class="float-start">
                     <img src="../img/shaving_butter-400x400.png" alt="Shaving butter">
@@ -106,7 +104,8 @@
         <!-- /Reviews + monthly product -->
 
         <!-- Blog posts -->
-        <section id="main-4" class="text-center py-5">
+        <section id="main-4" class="text-center pb-5">
+          <div class="triangle"></div>
           <p class="mt-5">Tales from the barbershop</p>
           <h2>Recent Blog Posts</h2>
           <div class="container clearfix">
@@ -168,6 +167,12 @@ main {
     // Find new barber
     #main-0 {
         background: url(../img/avadabarbers-about-introbackground.jpg);
+
+        .triangle {
+            background-image:
+                linear-gradient(to bottom right, transparent 50%, #ffffff 0),
+                linear-gradient(to top right, #ffffff 50%, transparent 0);
+        }
     }
     // --Find new barber
 
@@ -182,6 +187,12 @@ main {
                     height: 100px;
                 }
             }
+        }
+        
+        .triangle {
+                background-image:
+                    linear-gradient(to bottom right, transparent 50%, #121315 0),
+                    linear-gradient(to top right, #121315 50%, transparent 0);
         }
     }
     // --Services
@@ -237,6 +248,12 @@ main {
     #main-4 {
         background: #f5f5f5;
 
+        .triangle {
+                background-image:
+                    linear-gradient(to top right, transparent 50%, #ffffff 0),
+                    linear-gradient(to bottom right, #ffffff 50%, transparent 0);
+        }
+
         .clearfix {
             div {
                 width: calc(100%/3);
@@ -244,6 +261,6 @@ main {
         }
     }
     // --Blog posts
-    
+
 }
 </style>
