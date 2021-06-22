@@ -8,6 +8,15 @@ $grey: #8b8b8b;
     cursor:pointer
 }
 
+i:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+button:hover,img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .my_btn {
     padding: 10px 40px;
     border-color: $goldish;
