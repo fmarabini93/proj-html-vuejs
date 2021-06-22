@@ -11,7 +11,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a v-for="voice,index in item" :key="index" class="nav-link active" aria-current="page" :href="`#main-${index}`" style="color: #8b8b8b">{{voice}}</a>
+                            <a v-for="voice,index in item" :key="index" class="nav-link active text-end" aria-current="page" :href="`#main-${index}`" style="color: #8b8b8b">{{voice}}</a>
                         </div>
                     </div>
                 </div>

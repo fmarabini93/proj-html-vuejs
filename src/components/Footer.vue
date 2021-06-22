@@ -74,8 +74,11 @@ export default {
         // Credits
         #footer-bottom {
             height: 100px;
-            color: $grey;
             background: #161718;
+
+            p {
+                color: $darkgrey;
+            }
 
             a {
                 width: 40px;
