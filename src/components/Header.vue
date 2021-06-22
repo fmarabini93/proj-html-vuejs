@@ -6,7 +6,7 @@
                 <div class="container-fluid">
                     <img src="../img/avadabarbers-logo-x1.png" alt="Logo" class="pointer">
                     <div class="d-flex align-items-center">
-                        <a href="#footer-top"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#main-2"><i class="fas fa-shopping-cart"></i></a>
                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
