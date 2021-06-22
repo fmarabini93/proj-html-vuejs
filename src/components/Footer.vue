@@ -1,5 +1,7 @@
 <template>
   <footer class="text-center">
+
+      <!-- Info -->
       <div id="footer-top" class="container clearfix py-5">
           <div class="float-start">
               <img src="../img/avadabarbers_footer_shop_image-400x312.png" alt="Shop">
@@ -22,10 +24,14 @@
               <button class="my_btn">Book your appointment</button>
           </div>
       </div>
+      <!-- /Info -->
+
+      <!-- Credits -->
       <div id="footer-bottom" class="d-flex justify-content-center align-items-center position-relative">
           <p class="m-0"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
           <button class="border-0 rounded-top p-3 d-flex align-items-center"><i class="fas fa-chevron-up"></i></button>
       </div>
+      <!-- /Credits -->
   </footer>
 </template>
 
@@ -48,6 +54,7 @@ export default {
     footer {
         background: #000000;
 
+        // Info
         #footer-top {
             div {
                 width: calc(100%/3);
@@ -66,7 +73,9 @@ export default {
                 }
             }
         }
+        // --Info
 
+        // Credits
         #footer-bottom {
             height: 100px;
             color: $grey;
@@ -81,5 +90,6 @@ export default {
                 background: #303030;
             }
         }
+        // --Credits
     }
 </style>

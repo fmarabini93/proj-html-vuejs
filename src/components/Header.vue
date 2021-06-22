@@ -1,5 +1,5 @@
 <template>
-  <header class="position-relative">
+    <header class="position-relative">
         <div class="container">
             <nav class="navbar navbar-dark">
                 <div class="container-fluid">
@@ -10,7 +10,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a v-for="voice,index in item" :key="index" class="nav-link active" aria-current="page" :href="`#main-${index}`">{{voice}}</a>
+                            <a v-for="voice,index in item" :key="index" class="nav-link active" aria-current="page" :href="`#main-${index}`" style="color: #8b8b8b">{{voice}}</a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                 <p>On Sale</p>
             </button>
         </div>
-  </header>
+    </header>
 </template>
 
 <script>
@@ -55,16 +55,6 @@ export default {
     header {
         min-height: 100vh;
         background: url(../img/avadabarbers-homepage-hero-bg.jpg);
-
-        .container {
-            .navbar {
-                .container-fluid {
-                    span {
-                        color: #ffffff;
-                    }
-                }
-            }
-        }
     }
 
     #jumbotron {

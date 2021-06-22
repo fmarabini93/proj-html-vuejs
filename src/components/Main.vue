@@ -1,5 +1,6 @@
 <template>
   <main>
+        <!-- Find new barber -->
         <section id="main-0">
             <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
@@ -7,6 +8,9 @@
                 <button class="my-5 my_btn">Meet your new barber</button>
             </div>
         </section>
+        <!-- /Find new barber -->
+
+        <!-- Services -->
         <section id="main-1">
             <div id="main-first-bottom" class="d-flex flex-column justify-content-around align-items-center py-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Men's grooming</p>
@@ -31,6 +35,9 @@
                 <button class="my_btn mb-5">Read about our services</button>
           </div>
         </section>
+        <!-- /Services -->
+
+        <!-- Products -->
         <section id="main-2" class="d-flex flex-column justify-content-around align-items-center py-5">
           <p class="text-uppercase fw-bold mt-5">We have you covered</p>
           <h2 class="mb-5">Avada Grooming Products</h2>
@@ -58,6 +65,9 @@
           </div>
           <button class="my_btn my-5">Shop our product range</button>
         </section>
+        <!-- /Products -->
+
+        <!-- Reviews + monthly product -->
         <section id="main-3" class="pb-5">
             <div class="container clearfix mb-5">
                 <div id="shaving-butter-img" class="float-start">
@@ -92,6 +102,9 @@
                 </div>
             </div>
         </section>
+        <!-- /Reviews + monthly product -->
+
+        <!-- Blog posts -->
         <section id="main-4" class="text-center py-5">
           <p class="mt-5">Tales from the barbershop</p>
           <h2>Recent Blog Posts</h2>
@@ -114,6 +127,7 @@
           </div>
           <button class="my_btn mb-5">Read more from our blog</button>
         </section>
+        <!-- Blog posts -->
   </main>
 </template>
 
@@ -127,6 +141,7 @@ export default {
 @import '../my_common_styles.scss';
 
 main {
+    // General
     h2 {
             font-size: 80px;
             color: $lightgrey;
@@ -145,12 +160,16 @@ main {
     .grey-p {
         color: $grey;
     }
+    // --General
 
-    #main-first-top {
+    // Find new barber
+    #main-0 {
         background: url(../img/avadabarbers-about-introbackground.jpg);
     }
+    // --Find new barber
 
-    #main-first-bottom {
+    // Services
+    #main-1 {
         .container {
             div {
                 width: calc(100%/3);
@@ -161,7 +180,9 @@ main {
             }
         }
     }
+    // --Services
 
+    // Products
     #main-2 {
         background: url(../img/avadabarbers-reviewsbackground.jpg) top center;
 
@@ -171,7 +192,9 @@ main {
             }
         }
     }
+    // --Products
 
+    // Reviews + monthly product
     #main-3 {
         .container:first-child {
             position: relative;
@@ -204,7 +227,9 @@ main {
             }
         }
     }
+    // --Reviews + monthly product
 
+    // Blog posts
     #main-4 {
         background: #f5f5f5;
 
@@ -214,5 +239,6 @@ main {
             }
         }
     }
+    // --Blog posts
 }
 </style>
