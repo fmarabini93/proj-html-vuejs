@@ -26,8 +26,8 @@
       <!-- /Info -->
       <!-- Credits -->
       <div id="footer-bottom" class="d-flex justify-content-center align-items-center position-relative">
-          <p class="m-0"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
-          <button class="border-0 rounded-top p-3 d-flex align-items-center"><i class="fas fa-chevron-up"></i></button>
+            <p class="m-0"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+            <a href="#top"><i class="fas fa-chevron-up"></i></a>
       </div>
       <!-- /Credits -->
   </footer>
@@ -77,9 +77,11 @@ export default {
             color: $grey;
             background: #161718;
 
-            button {
+            a {
+                width: 40px;
                 height: 30px;
-                position: absolute;
+                line-height: 30px;
+                position: fixed;
                 bottom: 0;
                 right: 5%;
                 color: $lightgrey;

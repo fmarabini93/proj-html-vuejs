@@ -1,5 +1,5 @@
 <template>
-    <header class="position-relative">
+    <header id="top" class="position-relative">
         <div class="container">
             <!-- Top bar -->
             <nav class="navbar navbar-dark">
@@ -81,9 +81,9 @@ export default {
     }
     // Top right fixed buttons
     #buttons {
-        position: absolute;
+        position: fixed;
         top: 20%;
-        right: 10px;
+        right: 5px;
         font-size: 14px;
 
         .white_btn {
