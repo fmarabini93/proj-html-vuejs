@@ -14,10 +14,7 @@
                 <span class="d-block mb-4">{{item.number}}</span>
                 <p class="text-uppercase fw-bold mt-4">Follow us</p>
                 <ul class="lisy-unstyled px-0 pt-3">
-                    <li class="d-inline-block px-2"><i class="fab fa-facebook-f"></i></li>
-                    <li class="d-inline-block px-2"><i class="fab fa-twitter"></i></li>
-                    <li class="d-inline-block px-2"><i class="fab fa-youtube"></i></li>
-                    <li class="d-inline-block px-2"><i class="fab fa-instagram"></i></li>
+                    <li v-for="social,index in socials" :key="index" class="d-inline-block px-2 pointer"><i :class="`fab fa-${social}`"></i></li>
                 </ul>
           </div>
           <div class="float-start">
@@ -35,6 +32,11 @@
 <script>
 export default {
     name: 'Footer',
+    data() {
+        return {
+            socials: ["facebook-f","twitter","youtube","instagram"]
+        }
+    },
     props: {
         item: Object
     }
