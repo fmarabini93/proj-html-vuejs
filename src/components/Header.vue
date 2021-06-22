@@ -63,6 +63,7 @@ export default {
         background: url(../img/avadabarbers-homepage-hero-bg.jpg);
 
         a {
+            margin-right: 20px;
             color: $lightgrey;
             outline: none;
         }
