@@ -5,10 +5,12 @@
             <nav class="navbar navbar-dark">
                 <div class="container-fluid">
                     <img src="../img/avadabarbers-logo-x1.png" alt="Logo" class="pointer">
-                    <i class="fas fa-2x fa-shopping-cart"></i>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="d-flex align-items-center">
+                        <a href="#footer-top"><i class="fas fa-shopping-cart"></i></a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a v-for="voice,index in item" :key="index" class="nav-link active text-end" aria-current="page" :href="`#main-${index}`" style="color: #8b8b8b">{{voice}}</a>
@@ -59,6 +61,11 @@ export default {
     header {
         min-height: 100vh;
         background: url(../img/avadabarbers-homepage-hero-bg.jpg);
+
+        a {
+            color: $lightgrey;
+            outline: none;
+        }
     }
 
     #jumbotron {
