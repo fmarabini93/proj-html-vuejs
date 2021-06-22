@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      menuVoices: ["Meet Your New Barber","Services","Products","Monthly Product","Reviews","Blog Posts"],
+      menuVoices: ["Find Your New Barber","Services","Products","Reviews","Blog Posts"],
       usefulInfo: {
         name: "Avada Barbers",
         address: "123 New York Street",

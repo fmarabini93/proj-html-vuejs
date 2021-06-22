@@ -1,35 +1,37 @@
 <template>
   <main>
-      <section id="main-1">
-          <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
-              <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
-              <h2 class="mb-5">Pro barbers</h2>
-              <button class="my-5 my_btn">Meet your new barber</button>
+        <section id="main-0">
+            <div id="main-first-top" class="d-flex flex-column justify-content-around align-items-center py-5">
+                <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
+                <h2 class="mb-5">Pro barbers</h2>
+                <button class="my-5 my_btn">Meet your new barber</button>
+            </div>
+        </section>
+        <section id="main-1">
+            <div id="main-first-bottom" class="d-flex flex-column justify-content-around align-items-center py-5">
+                <p class="text-uppercase mt-5 pt-5 fw-bold">Men's grooming</p>
+                <h2 class="mb-5">Services</h2>
+                <div class="container clearfix py-5">
+                    <div class="float-start text-center">
+                        <img src="../img/avadabarbers-trimcut-icon-before.png" alt="Beard trimmer">
+                        <h4 class="py-5">Trim & Cut</h4>
+                        <p>Avavda barbers are expert in the lickety split trim and hai cut. Quick but careful and ridiculously good looking.</p>
+                    </div>
+                    <div class="float-start text-center">
+                        <img src="../img/avadabarbers-washndry-icon.png" alt="Beard shampoo">
+                        <h4 class="py-5">Wash & Dry</h4>
+                        <p>Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.</p>
+                    </div>
+                    <div class="float-start text-center">
+                        <img src="../img/avadabarbers-beardtrim-icon.png" alt="Beard razor">
+                        <h4 class="py-5">Beard Tidy</h4>
+                        <p>Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
+                    </div>
+                </div>
+                <button class="my_btn mb-5">Read about our services</button>
           </div>
-          <div id="main-first-bottom" class="d-flex flex-column justify-content-around align-items-center py-5">
-              <p class="text-uppercase mt-5 pt-5 fw-bold">Men's grooming</p>
-              <h2 class="mb-5">Services</h2>
-              <div class="container clearfix py-5">
-                  <div class="float-start text-center">
-                      <img src="../img/avadabarbers-trimcut-icon-before.png" alt="Beard trimmer">
-                      <h4 class="py-5">Trim & Cut</h4>
-                      <p>Avavda barbers are expert in the lickety split trim and hai cut. Quick but careful and ridiculously good looking.</p>
-                  </div>
-                  <div class="float-start text-center">
-                      <img src="../img/avadabarbers-washndry-icon.png" alt="Beard shampoo">
-                      <h4 class="py-5">Wash & Dry</h4>
-                      <p>Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.</p>
-                  </div>
-                  <div class="float-start text-center">
-                      <img src="../img/avadabarbers-beardtrim-icon.png" alt="Beard razor">
-                      <h4 class="py-5">Beard Tidy</h4>
-                      <p>Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
-                  </div>
-              </div>
-              <button class="my_btn mb-5">Read about our services</button>
-          </div>
-      </section>
-      <section id="main-2" class="d-flex flex-column justify-content-around align-items-center py-5">
+        </section>
+        <section id="main-2" class="d-flex flex-column justify-content-around align-items-center py-5">
           <p class="text-uppercase fw-bold mt-5">We have you covered</p>
           <h2 class="mb-5">Avada Grooming Products</h2>
           <div class="clearfix text-center mb-5">
@@ -55,8 +57,8 @@
               </div>
           </div>
           <button class="my_btn my-5">Shop our product range</button>
-      </section>
-      <section id="main-3" class="pb-5">
+        </section>
+        <section id="main-3" class="pb-5">
             <div class="container clearfix mb-5">
                 <div id="shaving-butter-img" class="float-start">
                     <img src="../img/shaving_butter-400x400.png" alt="Shaving butter">
@@ -89,8 +91,8 @@
                     </div>
                 </div>
             </div>
-      </section>
-      <section id="main-4" class="text-center py-5">
+        </section>
+        <section id="main-4" class="text-center py-5">
           <p class="mt-5">Tales from the barbershop</p>
           <h2>Recent Blog Posts</h2>
           <div class="container clearfix">
@@ -111,7 +113,7 @@
               </div>
           </div>
           <button class="my_btn mb-5">Read more from our blog</button>
-      </section>
+        </section>
   </main>
 </template>
 
