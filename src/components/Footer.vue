@@ -50,7 +50,7 @@ export default {
 <style lang="scss">
 @import '../my_common_styles.scss';
     footer {
-        background: #000000;
+        background: #111110;
         // Info
         #footer-top {
             div {

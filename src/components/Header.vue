@@ -95,7 +95,7 @@ export default {
 
         #demos {
             i {
-                color: #33475B;
+                color: #4f659a;
             }
         }
 
