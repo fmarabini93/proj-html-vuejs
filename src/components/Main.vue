@@ -9,7 +9,6 @@
             </div>
         </section>
         <!-- /Find new barber -->
-
         <!-- Services -->
         <section id="main-1">
             <div id="main-first-bottom" class="d-flex flex-column justify-content-around align-items-center py-5">
@@ -36,7 +35,6 @@
           </div>
         </section>
         <!-- /Services -->
-
         <!-- Products -->
         <section id="main-2" class="d-flex flex-column justify-content-around align-items-center py-5">
           <p class="text-uppercase fw-bold mt-5">We have you covered</p>
@@ -66,7 +64,6 @@
           <button class="my_btn my-5">Shop our product range</button>
         </section>
         <!-- /Products -->
-
         <!-- Reviews + monthly product -->
         <section id="main-3" class="pb-5">
             <div class="container clearfix mb-5">
@@ -103,7 +100,6 @@
             </div>
         </section>
         <!-- /Reviews + monthly product -->
-
         <!-- Blog posts -->
         <section id="main-4" class="text-center py-5">
           <p class="mt-5">Tales from the barbershop</p>
@@ -161,13 +157,11 @@ main {
         color: $grey;
     }
     // --General
-
     // Find new barber
     #main-0 {
         background: url(../img/avadabarbers-about-introbackground.jpg);
     }
     // --Find new barber
-
     // Services
     #main-1 {
         .container {
@@ -181,7 +175,6 @@ main {
         }
     }
     // --Services
-
     // Products
     #main-2 {
         background: url(../img/avadabarbers-reviewsbackground.jpg) top center;
@@ -193,7 +186,6 @@ main {
         }
     }
     // --Products
-
     // Reviews + monthly product
     #main-3 {
         .container:first-child {
@@ -228,7 +220,6 @@ main {
         }
     }
     // --Reviews + monthly product
-
     // Blog posts
     #main-4 {
         background: #f5f5f5;

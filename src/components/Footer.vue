@@ -1,6 +1,5 @@
 <template>
   <footer class="text-center">
-
       <!-- Info -->
       <div id="footer-top" class="container clearfix py-5">
           <div class="float-start">
@@ -25,7 +24,6 @@
           </div>
       </div>
       <!-- /Info -->
-
       <!-- Credits -->
       <div id="footer-bottom" class="d-flex justify-content-center align-items-center position-relative">
           <p class="m-0"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
@@ -53,7 +51,6 @@ export default {
 @import '../my_common_styles.scss';
     footer {
         background: #000000;
-
         // Info
         #footer-top {
             div {
@@ -74,7 +71,6 @@ export default {
             }
         }
         // --Info
-
         // Credits
         #footer-bottom {
             height: 100px;
