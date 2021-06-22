@@ -1,6 +1,7 @@
 <template>
     <header id="top" class="position-relative">
         <div class="container">
+
             <!-- Top bar -->
             <nav class="navbar navbar-dark">
                 <div class="container-fluid">
@@ -19,6 +20,8 @@
                 </div>
             </nav>
             <!-- /Top bar -->
+
+
             <div id="jumbotron" class="d-flex justify-content-between align-items-center">
                 <div>
                     <h1>Barber Shop</h1>
@@ -29,6 +32,7 @@
                 <img src="../img/avadabarbers_hero_focalmirror-600x825.png" alt="Cutting hair" class="not_scale">
             </div>
         </div>
+
         <!-- Top right fixed buttons -->
         <div id="buttons">
             <button id="demos" class="white_btn pointer d-block border-0 rounded-3 mb-3">
@@ -42,6 +46,7 @@
             </button>
         </div>
         <!-- /Top right fixed buttons -->
+
     </header>
 </template>
 
@@ -87,6 +92,7 @@ export default {
             color: $grey;
         }
     }
+
     // Top right fixed buttons
     #buttons {
         position: fixed;
@@ -118,4 +124,5 @@ export default {
         }
     }
     // --Top right fixed buttons
+    
 </style>
