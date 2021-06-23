@@ -61,7 +61,8 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
-@import '../common_styles.scss';
+@import '../common.scss';
+@import '../responsive.scss';
 
     header {
         background: url(../img/avadabarbers-homepage-hero-bg.jpg);

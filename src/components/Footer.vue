@@ -53,7 +53,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../common_styles.scss';
+@import '../common.scss';
+@import '../responsive.scss';
     footer {
         background: #111110;
 
