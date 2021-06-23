@@ -3,7 +3,7 @@
       <!-- Info -->
       <div id="footer-top" class="container py-5">
         <div class="row">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 tp">
                     <img src="../img/avadabarbers_footer_shop_image-400x312.png" alt="Shop">
                     <button class="my_btn goldish_btn mt-4">Shop our range now</button>
                 </div>
@@ -55,6 +55,10 @@ export default {
 @import '../responsive.scss';
     footer {
         background: #111110;
+
+        img {
+            max-width: 100%;
+        }
 
         // Info
             #footer-top {
