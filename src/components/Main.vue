@@ -2,7 +2,7 @@
   <main>
 
         <!-- Find new barber -->
-        <section id="main-0" class="d-flex flex-column justify-content-around align-items-center pt-5">
+        <section id="main-0" class="d-flex flex-column justify-content-around align-items-center">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
                 <h2 class="mb-5 fw-bold">Pro barbers</h2>
                 <button class="my_btn goldish_btn my-5">Meet your new barber</button>
