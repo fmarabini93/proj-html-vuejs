@@ -1,5 +1,5 @@
 <template>
-    <header id="top" class="position-relative">
+    <header id="top" class="position-relative pb-5">
         <div class="container">
 
             <!-- Top bar -->
@@ -22,7 +22,7 @@
             <!-- /Top bar -->
 
 
-            <div id="jumbotron" class="d-flex justify-content-between align-items-center">
+            <div id="jumbotron" class="container d-flex justify-content-between align-items-center px-5">
                 <div>
                     <h1>Barber Shop</h1>
                     <hr>
@@ -61,14 +61,13 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
-@import '../my_common_styles.scss';
+@import '../common_styles.scss';
 
     header {
-        min-height: 100vh;
         background: url(../img/avadabarbers-homepage-hero-bg.jpg);
 
         a {
-            margin-right: 20px;
+            margin-right: 10px;
             color: $lightgrey;
             outline: none;
         }
@@ -94,35 +93,35 @@ export default {
     }
 
     // Top right fixed buttons
-    #buttons {
-        position: fixed;
-        top: 20%;
-        right: 5px;
-        font-size: 14px;
+        #buttons {
+            position: fixed;
+            top: 20%;
+            right: 5px;
+            font-size: 14px;
 
-        .white_btn {
-        width: 70px;
-        height: 70px;
-        outline: none;
-        color: #4a5259;
-        }
+            .white_btn {
+            width: 70px;
+            height: 70px;
+            outline: none;
+            color: #4a5259;
+            }
 
-        #demos {
-            i {
-                color: #4f659a;
+            #demos {
+                i {
+                    color: #4f659a;
+                }
+            }
+
+            #sale {
+                i, span {
+                    color: #83c994;
+                }
+                i {
+                    position: relative;
+                    top: -10px;
+                }
             }
         }
-
-        #sale {
-            i, span {
-                color: #83c994;
-            }
-            i {
-                position: relative;
-                top: -10px;
-            }
-        }
-    }
     // --Top right fixed buttons
     
 </style>

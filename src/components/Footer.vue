@@ -2,12 +2,12 @@
   <footer class="text-center">
 
       <!-- Info -->
-      <div id="footer-top" class="container clearfix py-5">
-          <div class="float-start">
+      <div id="footer-top" class="row py-5 mx-0">
+          <div class="col-12 col-lg-4">
               <img src="../img/avadabarbers_footer_shop_image-400x312.png" alt="Shop">
               <button class="my_btn goldish_btn mt-4">Shop our range now</button>
           </div>
-          <div class="float-start">
+          <div class="col-12 col-lg-4">
                 <img src="../img/avadabarbers-logo-x2-200x70.png" alt="Logo" class="pt-4 mb-5">
                 <span class="d-block">{{item.name}}</span>
                 <span class="d-block">{{item.address}}</span>
@@ -19,7 +19,7 @@
                     <li v-for="social,index in socials" :key="index" class="d-inline-block px-2 pointer"><i :class="`fab fa-${social}`"></i></li>
                 </ul>
           </div>
-          <div class="float-start">
+          <div class="col-12 col-lg-4">
               <img src="../img/avadabarbers_footer_appointment_image-400x312.png" alt="Book">
               <button class="my_btn goldish_btn mt-4">Book your appointment</button>
           </div>
@@ -51,51 +51,47 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../my_common_styles.scss';
+@import '../common_styles.scss';
     footer {
         background: #111110;
 
         // Info
-        #footer-top {
-            div {
-                width: calc(100%/3);
+            #footer-top {
+                    span {
+                        color: $grey;
+                    }
 
-                span {
-                    color: $grey;
-                }
+                    p {
+                        color: $goldish;
+                        opacity: 0.7;
+                    }
 
-                p {
-                    color: $goldish;
-                    opacity: 0.7;
-                }
-
-                li {
-                    color: $lightgrey;
-                }
+                    li {
+                        color: $lightgrey;
+                    }
             }
-        }
         // --Info
 
         // Credits
-        #footer-bottom {
-            height: 100px;
-            background: #161718;
+            #footer-bottom {
+                height: 100px;
+                background: #161718;
 
-            p {
-                color: $darkgrey;
-            }
+                p {
+                    color: $darkgrey;
+                }
 
-            a {
-                width: 40px;
-                height: 30px;
-                line-height: 30px;
-                position: fixed;
-                bottom: 0;
-                right: 5%;
-                color: $lightgrey;
-                background: #303030;
+                a {
+                    width: 40px;
+                    height: 30px;
+                    line-height: 30px;
+                    position: fixed;
+                    bottom: 0;
+                    right: 5%;
+                    color: $lightgrey;
+                    background: #303030;
+                }
             }
-        }
         // --Credits
         
     }

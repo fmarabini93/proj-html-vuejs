@@ -1,0 +1,86 @@
+// Smartphone specific
+@media screen and (max-width: 575px) {
+    
+    // Header
+        #jumbotron {
+            div {
+                h1 {
+                    font-size: 65px;
+                    margin-top: 30px;
+                }
+            }
+            
+            img {
+                display: none;
+            }
+        }
+
+        #buttons {
+            position: absolute;
+
+            #demos,#sale {
+                width: 50px;
+                height: 60px;
+                font-size: 12px;
+            }
+        }
+    // --Header
+    
+    // Main
+    
+        // General
+            main {
+                section {
+                    h2 {
+                        font-size: 50px;
+                    }
+
+                    h4 {
+                        font-size: 25px;
+                    }
+                }
+            }
+        // --General
+
+        // Products
+            #main-2 {
+                .row {
+                    img {
+                        max-width: 90%;
+                    }
+                }
+            }
+        // --Products
+
+        // Monthly Product
+            #main-3 {
+                .row {
+                    #shaving-butter-img {
+                        max-width: 99%;
+                        padding: 0;
+                    }
+                }
+            }
+        // --Monthly Product
+
+        // Blog posts
+            #main-4 {
+                .row {
+                    img {
+                        max-width: 90%;
+                    };
+                }
+            }
+        // --Blog posts
+
+    // --Main
+
+    // Footer
+            #footer-top {
+                img {
+                    max-width: 90%;
+                }
+            }
+    // --Footer
+}
+// --Smartphone specific
