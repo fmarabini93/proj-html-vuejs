@@ -1,6 +1,5 @@
 <template>
   <main>
-
         <!-- Find new barber -->
         <section id="main-0" class="d-flex flex-column justify-content-around align-items-center">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Award winning</p>
@@ -142,7 +141,6 @@
           <button class="my_btn brownish_btn mb-5">Read more from our blog</button>
         </section>
         <!-- Blog posts -->
-
   </main>
 </template>
 
@@ -157,7 +155,6 @@ export default {
 @import '../responsive.scss';
 
 main {
-
     // General
         h2 {
                 font-size: 80px;
@@ -274,6 +271,5 @@ main {
             }
         }
     // --Blog posts
-
 }
 </style>

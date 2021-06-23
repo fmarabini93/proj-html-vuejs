@@ -1,6 +1,5 @@
 // Smartphone
-@media screen and (max-width: 575px) {
-    
+@media screen and (max-width: 575px) {   
     // Header
         #jumbotron {
             div {
@@ -56,13 +55,11 @@
                 }
             }
     // --Footer
-    
 }
 // --Smartphone
 
 // Tablet portrait
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) {    
     // Header
         #jumbotron {
             div {
@@ -95,13 +92,11 @@
         // --General
 
     // --Main
-
 }
 // --Tablet portrait
 
 // Tablet landscape and bigger displays
-@media screen and (max-width: 991px) {
-    
+@media screen and (max-width: 991px) {    
     // Top-right floating buttons
         #buttons {
             position: absolute;
@@ -114,6 +109,5 @@
             }
         }
     // --Top-right floating buttons
-
 }
 // --Tablet landscape and bigger displays

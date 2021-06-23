@@ -1,6 +1,5 @@
 <template>
   <footer class="text-center">
-
       <!-- Info -->
       <div id="footer-top" class="container py-5">
         <div class="row">
@@ -34,7 +33,6 @@
             <a href="#top"><i class="fas fa-chevron-up"></i></a>
       </div>
       <!-- /Credits -->
-
   </footer>
 </template>
 
@@ -95,7 +93,6 @@ export default {
                     background: #303030;
                 }
             }
-        // --Credits
-        
+        // --Credits    
     }
 </style>

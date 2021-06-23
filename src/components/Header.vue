@@ -1,7 +1,6 @@
 <template>
     <header id="top" class="position-relative pt-3 pb-5">
         <div class="container">
-
             <!-- Top bar -->
             <nav class="navbar navbar-dark">
                 <div class="container-fluid">
@@ -20,7 +19,6 @@
                 </div>
             </nav>
             <!-- /Top bar -->
-
 
             <div id="jumbotron" class="container d-flex justify-content-around align-items-center px-5">
                 <div>
@@ -46,7 +44,6 @@
             </button>
         </div>
         <!-- /Top right fixed buttons -->
-
     </header>
 </template>
 
@@ -97,7 +94,6 @@ export default {
             color: $grey;
         }
     }
-
     // Top right fixed buttons
         #buttons {
             position: fixed;
@@ -129,6 +125,5 @@ export default {
                 }
             }
         }
-    // --Top right fixed buttons
-    
+    // --Top right fixed buttons   
 </style>
