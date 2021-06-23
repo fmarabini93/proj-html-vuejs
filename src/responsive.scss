@@ -14,16 +14,6 @@
                 max-width: 60%;
             }
         }
-
-        #buttons {
-            position: absolute;
-
-            #demos,#sale {
-                width: 50px;
-                height: 60px;
-                font-size: 12px;
-            }
-        }
     // --Header
     
     // Main
@@ -69,7 +59,7 @@
 }
 // --Smartphone
 
-// Tablet landscape
+// Tablet portrait
 @media screen and (max-width: 768px) {
     
     // Header
@@ -102,4 +92,19 @@
         }
 // --General
 }
-// --Tablet landscape
+// --Tablet portrait
+
+// Tablet landscape and bigger displays
+@media screen and (max-width: 991px) {
+    #buttons {
+        position: absolute;
+        top: 60%;
+
+        #demos,#sale {
+            width: 50px;
+            height: 60px;
+            font-size: 11px;
+        }
+    }
+}
+// --Tablet landscape and bigger displays
