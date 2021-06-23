@@ -1,6 +1,7 @@
 // Colors
     $goldish: #ffcf6a;
     $brownish: #ae8652;
+    $lightestgrey: #eae8e6;
     $lightgrey: #b0b0b0;
     $grey: #69625c;
     $darkgrey: #505050;
@@ -24,12 +25,12 @@
         background: transparent;
     }
     .goldish_btn {
-        border-color: $goldish;
+        border: 2px solid $goldish;
         color: $goldish;
         opacity: 0.7;
     }
     .brownish_btn {
-        border-color: $brownish;
+        border: 2px solid $brownish;
         color: $brownish;
     }
 

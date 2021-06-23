@@ -1,5 +1,5 @@
 <template>
-    <header id="top" class="position-relative pb-5">
+    <header id="top" class="position-relative pt-3 pb-5">
         <div class="container">
 
             <!-- Top bar -->
@@ -35,7 +35,7 @@
 
         <!-- Top right fixed buttons -->
         <div id="buttons">
-            <button id="demos" class="white_btn pointer d-block border-0 rounded-3 mb-3">
+            <button id="demos" class="white_btn pointer d-block border-0 rounded-3 mb-1">
                 <i class="fas fa-3x fa-folder-plus"></i>
                 <p>Demos</p>
             </button>
@@ -68,7 +68,7 @@ export default {
 
         a {
             margin-right: 10px;
-            color: $lightgrey;
+            color: $lightestgrey;
             outline: none;
         }
 
@@ -80,7 +80,7 @@ export default {
     #jumbotron {
         h1 {
             font-size: 100px;
-            color: #ffffff;
+            color: $lightestgrey;
         }
 
         hr {

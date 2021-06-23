@@ -36,8 +36,12 @@ export default {
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
   body {
+    box-sizing: border-box;
+  }
+  
+  h1,h2,h4 {
     font-family: 'Playfair Display', serif;
   }
 </style>
