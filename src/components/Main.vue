@@ -13,7 +13,7 @@
         <!-- Services -->
         <section id="main-1" class="d-flex flex-column justify-content-around align-items-center pt-5">
                 <p class="text-uppercase mt-5 pt-5 fw-bold">Men's grooming</p>
-                <h2 class="mb-5">Services</h2>
+                <h2>Services</h2>
                 <div class="container">
                     <div class="row text-center py-5">
                         <div class="col-12 col-md-4 mt-5">
@@ -74,10 +74,10 @@
         <section id="main-3">
             <div class="container text-center mb-5">
                 <div class="row">
-                    <div id="shaving-butter-img" class="col-12">
+                    <div id="shaving-butter-img" class="col-12 col-lg-4">
                         <img src="../img/shaving_butter-400x400.png" alt="Shaving butter">
                     </div>
-                    <div id="shaving-butter-description" class="col-12">
+                    <div id="shaving-butter-description" class="col-12 col-lg-8">
                         <p>This month featured product</p>
                         <h2>Shaving Butter</h2>
                         <p class="grey-p mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt provident accusamus beatae odit accusantium repellat, pariatur autem quis magni aut magnam dolore molestias, adipisci perspiciatis.</p>
@@ -87,7 +87,7 @@
             </div>
             <div class="container text-center">
                 <p class="mt-5">What people say</p>
-                <h2>Reviews</h2>
+                <h2 class="my-5">Reviews</h2>
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <p class="grey-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod inventore rerum ipsam, mollitia modi alias tempora reprehenderit nihil hic tenetur, debitis maxime unde nemo. Quis sint omnis voluptatibus odio?</p>
@@ -227,7 +227,6 @@ main {
 
             .row {
                         img {
-                            height: 150px;
                             margin: 20px 0;
                             border-radius: 50%;
                         }

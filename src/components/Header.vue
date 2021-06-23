@@ -24,7 +24,7 @@
 
             <div id="jumbotron" class="container d-flex justify-content-around align-items-center px-5">
                 <div>
-                    <h1>Barber Shop</h1>
+                    <h1 class="fw-bold">Barber Shop</h1>
                     <hr>
                     <p class="fs-3">The Pinnacle of Male Grooming</p>
                     <button class="my_btn goldish_btn mt-5">Learn More</button>
@@ -101,6 +101,7 @@ export default {
             position: fixed;
             top: 20%;
             right: 5px;
+            z-index: 2;
             font-size: 14px;
 
             .white_btn {
