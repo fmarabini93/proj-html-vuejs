@@ -171,6 +171,10 @@ main {
         .grey-p {
             color: $grey;
         }
+
+        img {
+            max-width: 100%;
+        }
     // --General
 
     // Find new barber

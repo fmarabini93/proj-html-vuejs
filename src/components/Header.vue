@@ -22,7 +22,7 @@
             <!-- /Top bar -->
 
 
-            <div id="jumbotron" class="container d-flex justify-content-between align-items-center px-5">
+            <div id="jumbotron" class="container d-flex justify-content-around align-items-center px-5">
                 <div>
                     <h1>Barber Shop</h1>
                     <hr>
@@ -70,6 +70,10 @@ export default {
             margin-right: 10px;
             color: $lightgrey;
             outline: none;
+        }
+
+        img {
+            max-width: 65%;
         }
     }
 
