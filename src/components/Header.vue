@@ -61,18 +61,17 @@ export default {
 @import '../common.scss';
 @import '../responsive.scss';
 
-    header {
-        background: url(../img/avadabarbers-homepage-hero-bg.jpg);
+header {
+    background: url(../img/avadabarbers-homepage-hero-bg.jpg);
 
-        a {
-            margin-right: 10px;
-            color: $lightestgrey;
-            outline: none;
-        }
+    a {
+        margin-right: 10px;
+        color: $lightestgrey;
+        outline: none;
+    }
 
-        img {
-            max-width: 65%;
-        }
+    img {
+        max-width: 65%;
     }
 
     #jumbotron {
@@ -125,5 +124,6 @@ export default {
                 }
             }
         }
-    // --Top right fixed buttons   
+    // --Top right fixed buttons
+} 
 </style>

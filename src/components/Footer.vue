@@ -53,15 +53,16 @@ export default {
 <style lang="scss">
 @import '../common.scss';
 @import '../responsive.scss';
-    footer {
-        background: #111110;
+    
+footer {
+    background: #111110;
 
-        img {
-            max-width: 100%;
-        }
+    img {
+        max-width: 100%;
+    }
 
-        // Info
-            #footer-top {
+    // Info
+        #footer-top {
                     span {
                         color: $grey;
                     }
@@ -74,11 +75,11 @@ export default {
                     li {
                         color: $lightgrey;
                     }
-            }
-        // --Info
+        }
+    // --Info
 
-        // Credits
-            #footer-bottom {
+    // Credits
+        #footer-bottom {
                 height: 100px;
                 background: #161718;
 
@@ -96,7 +97,7 @@ export default {
                     color: $lightgrey;
                     background: #303030;
                 }
-            }
-        // --Credits    
-    }
+        }
+    // --Credits    
+}
 </style>

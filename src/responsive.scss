@@ -1,7 +1,7 @@
 // Smartphone
 @media screen and (max-width: 575px) {   
-    // Header
-        #jumbotron {
+// Header
+    #jumbotron {
             div {
                 h1 {
                     font-size: 50px;
@@ -12,13 +12,13 @@
             img {
                 max-width: 60%;
             }
-        }
-    // --Header
+    }
+// --Header
     
-    // Main
+// Main
     
-        // General
-            main {
+    // General
+        main {
                 section {
                     h2 {
                         font-size: 50px;
@@ -32,49 +32,49 @@
                         height: 50px;
                     }
                 }
-            }
-        // --General
+        }
+    // --General
 
-        // Monthly Product
-            #main-3 {
+    // Monthly Product
+        #main-3 {
                 .row {
                     #shaving-butter-img {
                         max-width: 99%;
                         padding: 0;
                     }
                 }
-            }
-        // --Monthly Product
+        }
+    // --Monthly Product
 
-    // --Main
+// --Main
 
-    // Footer
-            #footer-top {
+// Footer
+        #footer-top {
                 img {
                     max-width: 90%;
                 }
-            }
+        }
     // --Footer
 }
 // --Smartphone
 
 // Tablet portrait
 @media screen and (max-width: 768px) {    
-    // Header
-        #jumbotron {
+// Header
+    #jumbotron {
             div {
                 h1 {
                     font-size: 60px;
                     margin-top: 20px;
                 }
             }
-        }
-    // --Header
+    }
+// --Header
 
-    // Main
+// Main
 
-        // General
-            main {
+    // General
+        main {
                 section {
                     h2 {
                         font-size: 45px;
@@ -88,26 +88,26 @@
                         height: 75px;
                     }
                 }
-            }
-        // --General
+        }
+    // --General
 
-    // --Main
+// --Main
 }
 // --Tablet portrait
 
 // Tablet landscape and bigger displays
 @media screen and (max-width: 991px) {    
-    // Top-right floating buttons
-        #buttons {
-            position: absolute;
-            top: 60%;
+// Top-right floating buttons
+    #buttons {
+        position: absolute;
+        top: 60%;
 
-            #demos,#sale {
-                width: 50px;
-                height: 60px;
-                font-size: 11px;
-            }
+        #demos,#sale {
+            width: 50px;
+            height: 60px;
+            font-size: 11px;
         }
-    // --Top-right floating buttons
+    }
+// --Top-right floating buttons
 }
 // --Tablet landscape and bigger displays
