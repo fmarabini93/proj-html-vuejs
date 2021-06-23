@@ -47,22 +47,22 @@
               <div class="col-12 col-md-6 col-lg-3">
                   <img src="../img/brush_dark-400x400.png" alt="Dark brush">
                   <h4 class="fw-bold">Brush</h4>
-                  <p><i class="fas fa-dollar-sign"></i>15.00</p>
+                  <p><span class="fs-4">$</span>15.00</p>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                   <img src="../img/scissors-400x400.png" alt="Scissors">
                   <h4 class="fw-bold">Scissors</h4>
-                  <p><i class="fas fa-dollar-sign"></i>85.00</p>
+                  <p><span class="fs-4">$</span>85.00</p>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                   <img src="../img/hot_oil_dark-400x400.png" alt="Hot oil">
                   <h4 class="fw-bold">Hot Oil</h4>
-                  <p><i class="fas fa-dollar-sign"></i>15.00</p>
+                  <p><span class="fs-4">$</span>15.00</p>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                   <img src="../img/straight_razor_dark-400x400.png" alt="Straight razor">
                   <h4 class="fw-bold">Straight Razor</h4>
-                  <p><i class="fas fa-dollar-sign"></i>30.00</p>
+                  <p><span class="fs-4">$</span>30.00</p>
               </div>
           </div>
           </div>
@@ -173,10 +173,6 @@ main {
             text-transform: uppercase;
             color: $brownish;
         }
-        .grey-p {
-            font-weight: lighter;
-            color: $grey;
-        }
 
         img {
             max-width: 100%;
@@ -231,6 +227,10 @@ main {
 
                 #shaving-butter-description {
                     padding: 7%;
+                }
+
+                .grey-p {
+                    color: $lightgrey;
                 }
             }
 

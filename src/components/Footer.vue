@@ -10,11 +10,11 @@
                 </div>
             <div class="col-12 col-lg-4">
                 <img src="../img/avadabarbers-logo-x2-200x70.png" alt="Logo" class="pt-4 mb-5">
-                <span class="d-block">{{item.name}}</span>
-                <span class="d-block">{{item.address}}</span>
-                <span class="d-block">{{item.city}}</span>
-                <span class="d-block">{{item.email}}</span>
-                <span class="d-block mb-4">{{item.number}}</span>
+                <span class="d-block grey-p">{{item.name}}</span>
+                <span class="d-block grey-p">{{item.address}}</span>
+                <span class="d-block grey-p">{{item.city}}</span>
+                <span class="d-block grey-p">{{item.email}}</span>
+                <span class="d-block grey-p mb-4">{{item.number}}</span>
                 <p class="text-uppercase fw-bold mt-4">Follow us</p>
                 <ul class="lisy-unstyled px-0 pt-3">
                     <li v-for="social,index in socials" :key="index" class="d-inline-block px-2 pointer"><i :class="`fab fa-${social}`"></i></li>
@@ -30,7 +30,7 @@
 
       <!-- Credits -->
       <div id="footer-bottom" class="d-flex justify-content-center align-items-center position-relative">
-            <p class="m-0"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+            <p class="m-0 grey-p"><i class="far fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
             <a href="#top"><i class="fas fa-chevron-up"></i></a>
       </div>
       <!-- /Credits -->

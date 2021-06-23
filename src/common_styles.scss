@@ -8,6 +8,19 @@
 // --Colors
 
 // General
+    body {
+        box-sizing: border-box;
+    }
+  
+    h1,h2,h4 {
+        font-family: 'Playfair Display', serif;
+    }
+
+    .grey-p {
+        font-family: 'Montserrat', sans-serif;
+        color: $grey;
+    }
+
     .pointer {
         cursor:pointer
     }
